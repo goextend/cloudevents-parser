@@ -1,26 +1,28 @@
 {
-    "name": "cloudevents-parser",
-    "version": "0.0.0",
-    "description": "Connect middleware for parsing CloudEvents messages",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/goextend/cloudevents.git"
-    },
-    "keywords": [
-      "cloudevents",
-      "webhooks",
-      "serverless",
-      "cloud"
-    ],
-    "author": "Tomasz Janczuk (tomasz@janczuk.org)",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/goextend/cloudevents-parser/issues"
-    },
-    "homepage": "https://github.com/goextend/cloudevents-parser#readme"
+  "name": "cloudevents-parser",
+  "version": "0.0.1",
+  "description": "Connect middleware for parsing CloudEvents messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goextend/cloudevents.git"
+  },
+  "keywords": [
+    "cloudevents",
+    "webhooks",
+    "serverless",
+    "cloud"
+  ],
+  "author": "Tomasz Janczuk (tomasz@janczuk.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goextend/cloudevents-parser/issues"
+  },
+  "homepage": "https://github.com/goextend/cloudevents-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2"
   }
-  
+}
